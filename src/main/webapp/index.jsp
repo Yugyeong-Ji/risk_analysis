@@ -27,10 +27,10 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Analyse</a></li>
                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">예연이메롱</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">예연이바보</a></li>
             </ul>
         </div>
     </div>
@@ -67,10 +67,10 @@
                 12 ~ 16시 사이 : 14시 선택<br>
                 16시 ~ 20시 사이 : 18시 선택<br>
                 20시 ~ 24시 : 22시 선택<br><br>
-                <form class="mb-3">
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <fieldset>
                         <legend class="text-white mt-0">사고 입력</legend>
-                        <table>
+                        <table style="width: 55%; margin: auto; text-align: center;">
                             <tr>
                                 <td class="text-white mt-0">시간</td>
                                 <td>
@@ -133,8 +133,9 @@
                                     </select>
                                 </td>
                             </tr>
+                            </tbody>
                         </table>
-                        <input class="btn btn-light btn-xl" type="submit" value="확인">
+                        <input class="btn btn-light btn-xl" style="margin-top: 30px;" type="submit" value="확인">
                     </fieldset>
                 </form>
             </div>
@@ -265,7 +266,7 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form>
                     <!-- Name input-->
                     <div class="form-floating mb-3">
                         <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
