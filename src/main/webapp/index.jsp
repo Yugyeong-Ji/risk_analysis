@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Risk Analysis</title>
+    <style>
+        option {
+            text-align: center;
+        }
+    </style>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap Icons-->
@@ -40,11 +45,11 @@
     <div class="container px-4 px-lg-5 h-100">
         <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end">
-                <h1 class="text-white font-weight-bold">Analyze your construction site risk</h1>
+                <h1 class="text-white font-weight-bold">Analyze<br>your construction site risk</h1>
                 <hr class="divider" />
             </div>
             <div class="col-lg-8 align-self-baseline">
-                <p class="text-white-75 mb-5">건설 현장의 사고 데이터 분석을 통해 현재 공사 현장의 위험도를 분석해드립니다! 오늘도 안전한 공사를 기원합니다.</p>
+                <p class="text-white-75 mb-5">건설 현장의 사고 데이터 분석을 통해 현재 공사 현장의 위험도를 분석해드립니다!<br>오늘도 안전한 공사를 기원합니다.</p>
                 <a class="btn btn-primary btn-xl" href="#about">분석하기</a>
             </div>
         </div>
@@ -55,10 +60,10 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 text-center">
-<%--                <h2 class="text-white mt-0">We've got what you need!</h2>--%>
-<%--                <hr class="divider divider-light" />--%>
-<%--                <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>--%>
-<%--                <a class="btn btn-light btn-xl" href="#services">Get Started!</a>--%>
+                <%--                <h2 class="text-white mt-0">We've got what you need!</h2>--%>
+                <%--                <hr class="divider divider-light" />--%>
+                <%--                <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>--%>
+                <%--                <a class="btn btn-light btn-xl" href="#services">Get Started!</a>--%>
                 <h1 class="text-white mt-0"><%= "건설 사고 예측" %></h1>
                 <h5 class="text-white mt-0">[ 시간 분류 안내 ]</h5>
                 0시 ~ 4시 사이 : 2시 선택<br>
